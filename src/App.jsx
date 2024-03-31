@@ -13,7 +13,7 @@ function App() {
             Technology Business Incubator
           </h1>
           <img
-            src="./../assets/logo2.png"
+            src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/logo2.png"
             className="max-h-[600px] mb-10 mt-6 w-[300px] md:h-[300px] md:w-[500px] xl:w-[600px] xl:h-[400px]"
           />
           <h1 className="font-abc font-semibold text-4xl md:text-6xl lg:text-6xl mb-12 text-center">
@@ -48,7 +48,7 @@ function App() {
             </div>
             <div>
               <img
-                src="./../assets/goal.png"
+                src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/goal.png"
                 className="w-90 h-80 border-2 m-3 mt-5"
               />
             </div>
@@ -66,7 +66,7 @@ function App() {
               </p>
             </div>
             <img
-              src="./../assets/mission.png"
+              src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/mission.png"
               className="w-96 h-80 border-2 m-3"
             />
             <div className="w-[70%] lg:w-[40%] md:block hidden">
@@ -96,7 +96,7 @@ function App() {
               </p>
             </div>
             <img
-              src="./../assets/vision.png"
+              src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/vision.png"
               alt=""
               className="h-[300px] md:h-[400px] border-2 m-3"
             />
