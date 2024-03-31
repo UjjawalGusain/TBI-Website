@@ -46,9 +46,9 @@ function Carousal(){
             <h1 className='font-abc text-2xl md:text-4xl text-black h-[20%] flex w-full '>A glimpse to our startups incubated</h1>
             <CarousalCard src={slides[activeIndex].src} title={slides[activeIndex].title} description={slides[activeIndex].description} link={slides[activeIndex].link}/>
             <div className="flex justify-evenly mt-5 w-[80%] h-14">
-              <button className="w-1/3 bg-white rounded-s-full border-2 hover:bg-gray-100 flex justify-center items-center size-12 " onClick={goToPrev}><img src="./../../assets/icons8-left-50.png" className="w-10 h-10"/></button>
+              <button className="w-1/3 bg-white rounded-s-full border-2 hover:bg-gray-100 flex justify-center items-center size-12 " onClick={goToPrev}><img src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/icons8-left-50.png" className="w-10 h-10"/></button>
               <button className={`w-1/3 bg-white border-2 hover:bg-gray-100 flex justify-center items-center size-12 ${isPaused ? "hover:bg-white bg-gray-100" : ""}`} onClick={handlePauseToggle}>{isPaused ? "Resume" : "Stop"}</button>
-              <button className="w-1/3 bg-white rounded-e-full border-2 hover:bg-gray-100 flex justify-center items-center size-12"onClick={goToNext}><img src="./../../assets/icons8-right-50.png" className="w-10 h-10"/></button>
+              <button className="w-1/3 bg-white rounded-e-full border-2 hover:bg-gray-100 flex justify-center items-center size-12"onClick={goToNext}><img src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/icons8-right-50.png" className="w-10 h-10"/></button>
             </div>
           </div>
         </>
@@ -56,4 +56,3 @@ function Carousal(){
 }
 
 export default Carousal;
-// transition-opacity duration-700 hover:opacity-0
