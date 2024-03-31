@@ -183,7 +183,7 @@ function App() {
       </section>
 
       <section className="bg-gray-900 text-white py-8 mt-5">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-1">
           <div className="flex flex-col items-center md:items-start">
             <p>
               &copy; 2024 Technology Business Incubator-GEU. All rights
