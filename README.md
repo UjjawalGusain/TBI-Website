@@ -1,8 +1,51 @@
-# React + Vite
+# TBI-Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a website for the Technology Business Incubator (TBI) at Graphic Era University. The website provides information about the incubator, its services, partners, experts, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design for various screen sizes.
+- Home page introducing the Technology Business Incubator.
+- Information about how the incubator works.
+- Details about the services offered by the incubator.
+- Section highlighting the partners involved with the incubator.
+- Showcase of experts associated with the incubator.
+- Contact form for inquiries and messages.
+
+## Technologies Used
+
+- React.js
+- Tailwind CSS
+- Vite.js (for development)
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/UjjawalGusain/TBI-Website.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd TBI-Website
+```
+
+3. Install dependencies:
+```
+npm install
+```
+
+4. Start the development server:
+```
+npm run dev
+```
+
+## Future Work
+
+For future work, we are hoping to integrate a backend system to enhance the functionality of the website. It will enable features such as user authentication and data storage. This website is still under work so stay tuned!
