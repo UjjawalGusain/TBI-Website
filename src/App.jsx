@@ -7,13 +7,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="flex flex-grow flex-shrink items-center flex-col w-full h-full">
+      <section id="home" className="flex flex-grow flex-shrink items-center flex-col w-full h-full">
         <div className="w-[80vw] flex flex-col items-center">
-          <h1 className="font-abc font-semibold text-4xl md:text-6xl  text-center">
+          <h1
+            href="#home" 
+            className="font-abc font-semibold text-4xl md:text-6xl  text-center">
             Technology Business Incubator
           </h1>
           <img
             src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/logo2.png"
+            href="#home"
             className="max-h-[600px] mb-10 mt-6 w-[300px] md:h-[300px] md:w-[500px] xl:w-[600px] xl:h-[400px]"
           />
           <h1 className="font-abc font-semibold text-4xl md:text-6xl lg:text-6xl mb-12 text-center">
@@ -32,7 +35,7 @@ function App() {
         </div>
       </section>
 
-      <section className="flex flex-grow flex-shrink items-center flex-col w-full h-full">
+      <section id="howItWorks" className="flex flex-grow flex-shrink items-center flex-col w-full h-full">
         <div className="w-[90vw] md:w-[80vw] flex justify-between flex-col gap-10">
           <div className="flex justify-around items-center flex-col md:flex-row">
             <div className="w-[80%] lg:w-[40%]">
@@ -103,10 +106,10 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="h-[700px] bg-[#DC5F00] flex justify-center">
+      <section id="partners" className="h-[700px] bg-[#DC5F00] flex justify-center">
         <Carousal />
       </section>
-      <section className="min-h-[400px] bg-[#f6f6f6] flex justify-center items-center pt-10 pb-10">
+      <section id="services" className="min-h-[400px] bg-[#f6f6f6] flex justify-center items-center pt-10 pb-10">
         <div className="font-bold font-abc text-4xl">
           <h1 className="text-center mb-14">Our Services</h1>
           <div className="flex items-center justify-center gap-10 md:flex-row flex-col">
@@ -144,7 +147,7 @@ function App() {
         </div>
       </section>
 
-      <section className="min-h-[600px] bg-white flex justify-center items-center">
+      <section id="experts" className="min-h-[600px] bg-white flex justify-center items-center">
         <div className="font-bold font-abc text-4xl pb-10 border-b-2 border-black lg:w-[80%]">
           <h1 className="text-center mt-10 mb-10">Some of the Experts</h1>
           <div className="flex gap-3 md:flex-row flex-col items-center flex-wrap md:justify-center">
@@ -152,7 +155,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="flex flex-grow flex-shrink justify-center flex-row w-full h-full">
+      <section id="apply" className="flex flex-grow flex-shrink justify-center flex-row w-full h-full">
         <div className="w-[80vw] md:w-[70vw] lg:w-[60vw] xl:w-[50vw]">
           <h1 className="font-abc font-semibold text-4xl md:text-6xl text-center mb-10">
             Contact Us
@@ -182,7 +185,7 @@ function App() {
         </div>
       </section>
 
-      <section className="bg-gray-900 text-white py-8 mt-5">
+      <section id="footer" className="bg-gray-900 text-white py-8 mt-5">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-1">
           <div className="flex flex-col items-center md:items-start">
             <p>

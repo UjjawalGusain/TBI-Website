@@ -11,13 +11,13 @@ function Navbar() {
               </div>
             </div>
             <ul className="flex font-normal justify-evenly gap-[3vw] items-center">
-              <li className="hidden xl:block"><a href="#" className="hover:text-gray-600 transition duration-300">The Projects</a></li>
-              <li className="hidden xl:block"><a href="#" className="hover:text-gray-600 transition duration-300">How it works</a></li>
-              <li className="hidden xl:block"><a href="#" className="hover:text-gray-600 transition duration-300">Success Stories</a></li>
-              <li className="hidden xl:block"><a href="#" className="hover:text-gray-600 transition duration-300">Partners</a></li>
-              <li className="hidden xl:block"><a href="#" className="hover:text-gray-600 transition duration-300">The Experts</a></li>
-              <li><button className="bg-black p-3 rounded-lg pr-4 pl-4 md:pr-8 md:pl-8 text-white md:font-medium font-normal flex flex-shrink hover:bg-gray-800 transition duration-300 ease-in-out">Info</button></li>
-              <li><button className="bg-[#DC5F00] p-3 rounded-lg pr-4 pl-4 md:pr-8 md:pl-8 text-white md:font-medium font-normal flex flex-shrink hover:bg-[#f28000] transition duration-300 ease-in-out">Apply</button></li>
+              <li className="hidden xl:block"><a href="#home" className="hover:text-gray-600 transition duration-300">Home Page</a></li>
+              <li className="hidden xl:block"><a href="#howItWorks" className="hover:text-gray-600 transition duration-300">How it works</a></li>
+              <li className="hidden xl:block"><a href="#services" className="hover:text-gray-600 transition duration-300">Our Services</a></li>
+              <li className="hidden xl:block"><a href="#partners" className="hover:text-gray-600 transition duration-300">Partners</a></li>
+              <li className="hidden xl:block"><a href="#experts" className="hover:text-gray-600 transition duration-300">The Experts</a></li>
+              <li><a href="https://tbi.geu.ac.in/about.php"><button className="bg-black p-3 rounded-lg pr-4 pl-4 md:pr-8 md:pl-8 text-white md:font-medium font-normal flex flex-shrink hover:bg-gray-800 transition duration-300 ease-in-out">Info</button></a></li>
+              <li><a href="#apply"><button className="bg-[#DC5F00] p-3 rounded-lg pr-4 pl-4 md:pr-8 md:pl-8 text-white md:font-medium font-normal flex flex-shrink hover:bg-[#f28000] transition duration-300 ease-in-out">Apply</button></a></li>
             </ul>
           </div>
         </div>
