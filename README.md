@@ -46,6 +46,15 @@ npm install
 npm run dev
 ```
 
+## How it looks:
+  
+  ### Full Screen(Laptop L - 1440px)
+  ![image](https://github.com/UjjawalGusain/TBI-Website/assets/130745509/0f711dcd-9ea6-40fd-b297-d5c08adb8193)
+  
+  ### Small Screen(Mobile S - 320px)
+  ![image](https://github.com/UjjawalGusain/TBI-Website/assets/130745509/36a52517-486e-419b-b366-23447908361a)
+  
+
 ## Future Work
 
 For future work, we are hoping to integrate a backend system to enhance the functionality of the website. It will enable features such as user authentication and data storage. This website is still under work so stay tuned!
