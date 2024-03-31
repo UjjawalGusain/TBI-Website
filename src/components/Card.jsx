@@ -11,7 +11,7 @@ function Card({imgLink, name, position, onLinkedin, link}){
                     <p className="text-lg text-black">{position}</p>
                 </div>
                 <div>
-                    <a href={link}><img src="./../../assets/icons8-linkedin-50.png" className={`hover:bg-red-400 bg-red-200 rounded-[2rem] ${!onLinkedin ? "hidden" : ""}`}/></a>
+                    <a href={link}><img src="https://raw.githubusercontent.com/UjjawalGusain/TBI-Website/main/assets/icons8-linkedin-50.png" className={`hover:bg-red-400 bg-red-200 rounded-[2rem] ${!onLinkedin ? "hidden" : ""}`}/></a>
                 </div>
                 </div>
             </div>
